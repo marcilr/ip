@@ -6,6 +6,15 @@ Copyright (C) 2019 by Raymond E. Marcil <marcilr@gmail.com>
 ip - show / manipulate routing, devices, policy routing and tunnels
 
 
+Linode's /var/log/auth.log shows work address as:
+$ tail auth.log
+...
+May 20 18:32:34 rockhounding sshd[7235]: Accepted publickey \
+for marcilr from 204.29.174.35 port 55102 ssh2: RSA SHA256:...
+...
+$
+
+
 Example
 =======
 $ ip addr show
